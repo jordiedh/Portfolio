@@ -1,0 +1,181 @@
+
+
+.footerContainer {
+    width: 100%;
+    background-color: #161616;
+}
+
+.footerContainer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerContainer a:hover {
+    color: #e1e1e1;
+}
+
+.liverpool {
+    color: #781a1a;
+    font-weight: bold;
+}
+
+.pageContainer {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.about-text {
+    width: 80%;
+    display: inline;
+}
+
+.contact-text {
+    display: inline;
+}
+
+.about-img {
+    display: inline;
+    width: 20%;
+    height: 100%
+}
+
+.about-img img {
+    width: 200px;
+}
+
+.aUnd {
+    text-decoration: none;
+}
+
+.icon {
+    width: 22px;
+    margin-right: 4px;
+}
+.project-ind {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.project-hyperlink {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 80px;
+    text-decoration: none;
+}
+
+* { margin: 0; padding: 0; }
+.terminal {
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+.terminal .top {
+    background: #E8E6E8;
+    color: black;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+.terminal .btns {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.terminal .circle {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 2px;
+    border-width: 1px;
+    border-style: solid;
+}
+.title{
+    text-align: center;
+}
+.red { background: #EC6A5F; border-color: #D04E42; }
+.green { background: #64CC57; border-color: #4EA73B; }
+.yellow{ background: #F5C04F; border-color: #D6A13D; }
+.clear{clear: both;}
+.terminal .body {
+    background: #2D2B55;
+    color: #9DFFFF;
+    padding: 8px;
+    overflow: auto;
+}
+.space {
+    margin: 25px;
+}
+.shadow { box-shadow: 0px 0px 10px rgba(0,0,0,.4)}
+
+.var-highlight {
+    color: #FF9D00;
+}
+
+.string-highlight {
+    color: #92FC79;
+}
+
+.int-highlight {
+    color: #FF618C;
+}
+
+.comment-highlight {
+    color: #B362FF;
+}
+
+.terminalSpacing {
+    width: 80%;
+    margin-left: -24px;
+}
+
+.who {
+
+}
+
+.page {
+    margin: auto;
+    width: 60%;
+}
+
+.who h1 {
+    font-family: 'PT Mono';
+    font-weight: 1000;
+    font-size: 60px;
+}
+
+.links {
+    color: #FB94FF;
+    text-decoration: none;
+}
+
+.who a {
+    text-decoration: none;
+}
+
+.who span {
+
+}
+
+.who h1::after {
+    content: "";
+    width: 8px;
+    height: 35px;
+    margin-left: 13px;
+    background: black;
+    display: inline-block;
+    animation: cursor-blink 1s steps(2) infinite;
+  }
+
+  @keyframes cursor-blink {
+    0% {
+      opacity: 0;
+    }
+  }
