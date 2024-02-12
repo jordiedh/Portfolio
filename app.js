@@ -14,7 +14,7 @@ app.use(express.static(path.dirname(__filename) + '/public')); // Set the public
 app.get('/', (req, res) => {
     var projects = [
         {img: "LightPawn.webp", tags: ["HTML5", "CSS3", "JS", "Express", "SQLite", "Passport Sessions"], title: "Chess Openings", desc: "This site was designed to practice Chess Opening theory, the site has pre-inserted openings, or features to create your own studies.", repo: "https://github.com/jordiedh/ChessOpenings", link: "http://jordanharrisondev.com/chessopenings"},
-        {img: "1200px-Zendesk_logo.svg.png", tags: ["HTML5", "CSS3", "JS", "Express", "SQLite", "Zendesk API"], title: "Zendesk Dashboard", desc: "For my last job at WorldSmart, I designed a dashboard that hooked up with the Zendesk API to display stats on tickets open in states, tickets closed by individual support agents, etc. This not a live version to avoid displaying this information publicly, but you can see via the source code it hooks up with the API.", repo: "https://github.com/jordiedh/WorldsmartDashboard", link: "http://jordanharrisondev.com/dashboarddemo"}
+        {img: "1200px-Zendesk_logo.svg.png", tags: ["HTML5", "CSS3", "JS", "Express", "SQLite", "Zendesk API"], title: "Zendesk Dashboard", desc: "For my last job at WorldSmart, I designed a dashboard that hooked up with the Zendesk API to display stats on tickets open in states, tickets closed by individual support agents, etc. This not a live version to avoid displaying this information publicly, but you can see via the source code it hooks up with the API.", repo: "https://github.com/jordiedh/WorldsmartDashboard", link: "https://wsdashboard.jordanharrisondev.com/disclaimer"}
     ]
     res.render('home', {
         projects: projects
