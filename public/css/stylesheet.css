@@ -76,6 +76,7 @@
 .terminal {
     border-radius: 5px 5px 0 0;
     position: relative;
+    min-width: 600px;
 }
 .terminal .top {
     background: #E8E6E8;
